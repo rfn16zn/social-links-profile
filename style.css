@@ -27,8 +27,8 @@ html {
   --fs-lrg: 1.5rem; /* 24px */
   --fs-med: 0.875rem; /* 14px */
 
-  --fw-bold: 700;
-  --fw-reg: 400;
+  --fw-bold: 600;
+  --fw-reg: 300;
 
   --space-500: 2.5em;   /* 40px */
   --space-300: 1.5em;   /* 24px */
@@ -49,6 +49,7 @@ body {
 }
 
 .profile {
+  width: 327px;
   background-color: var(--grey-800);
   padding: var(--space-300);
   border-radius: 0.75rem;
@@ -57,10 +58,11 @@ body {
   align-items: center;
   text-align: center;
   gap: var(--space-300);
+  line-height: 1.7;
 }
 
 .avatar {
-  width: 30%;
+  width: 35%;
   border-radius: 50%;
 }
 
@@ -81,4 +83,32 @@ body {
   color: var(--white);
   font-size: var(--fs-med);
   font-weight: var(--fw-reg);
+}
+
+.social-links {
+  width: 100%;
+}
+
+.social-links__list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-200);
+  /* border: solid 1px blue; */
+}
+
+/* .list__item {
+  border: solid 1px yellow;
+} */
+
+.link {
+  text-decoration: none;
+  background-color: var(--grey-700);
+  border-radius: 0.5rem;
+  color: var(--white);
+  display: block;
+  padding: var(--space-150);
+  font-size: var(--fs-med);
+  font-weight: var(--fw-bold);
 }

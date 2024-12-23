@@ -31,3 +31,12 @@ html {
   --space-100: 0.5em;   /* 8px */
   --space-50: 0.25em;   /* 4px */
 }
+
+body {
+  background-color: var(--grey-900);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

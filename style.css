@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter';
+  font-size: 16px;
+}
+
+:root {
+  --grey-900: #141414;
+  --grey-800: #1F1F1F;
+  --grey-700: #333333;
+  --green: #C4F82A;
+  --white: #FFF;
+
+  --fs-lrg: 1.5rem; /* 24px */
+  --fs-med: 0.875rem; /* 14px */
+
+  --fw-bold: 700;
+  --fw-reg: 400;
+
+  --space-500: 2.5em;   /* 40px */
+  --space-300: 1.5em;   /* 24px */
+  --space-200: 1em;     /* 16px */
+  --space-150: 0.75em;  /* 12px */
+  --space-100: 0.5em;   /* 8px */
+  --space-50: 0.25em;   /* 4px */
+}

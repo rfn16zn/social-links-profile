@@ -112,3 +112,26 @@ body {
   font-size: var(--fs-med);
   font-weight: var(--fw-bold);
 }
+
+.link:hover,
+.link:focus {
+  cursor: pointer;
+  background-color: var(--green);
+  color: var(--grey-700);
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
+
+@media only screen and (min-width: 600px) {
+  .profile {
+    width: 456px;
+    padding: var(--space-500);
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .profile {
+    width: 384px;
+    padding: var(--space-500);
+  }
+}

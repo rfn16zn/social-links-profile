@@ -58,6 +58,7 @@ body {
   align-items: center;
   text-align: center;
   gap: var(--space-300);
+  line-height: 1.5;
 }
 
 .avatar {

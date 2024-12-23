@@ -58,3 +58,27 @@ body {
   text-align: center;
   gap: var(--space-300);
 }
+
+.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.name {
+  color: var(--white);
+  font-size: var(--fs-lrg);
+  font-weight: var(--fw-bold);
+}
+
+.location {
+  color: var(--green);
+  font-style: normal;
+  font-size: var(--fs-med);
+  font-weight: var(--fw-bold);
+}
+
+.profession {
+  color: var(--white);
+  font-size: var(--fs-med);
+  font-weight: var(--fw-reg);
+}

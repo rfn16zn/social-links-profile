@@ -46,10 +46,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: var(--space-300);
 }
 
 .profile {
-  width: 327px;
+  max-width: 327px;
   background-color: var(--grey-800);
   padding: var(--space-300);
   border-radius: 0.75rem;
